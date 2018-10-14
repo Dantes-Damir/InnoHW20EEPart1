@@ -7,15 +7,6 @@
     <display-name>MyFirstServlet</display-name>
 
     <servlet>
-        <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>ru.innopolis.stc12.servlets.controllers.HelloServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>HelloWorld</servlet-name>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
         <servlet-name>Iterator</servlet-name>
         <servlet-class>ru.innopolis.stc12.servlets.controllers.IteratorServlet</servlet-class>
     </servlet>
@@ -33,4 +24,21 @@
         <url-pattern>/students</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>StudentsSave</servlet-name>
+        <servlet-class>ru.innopolis.stc12.servlets.controllers.StudentSaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentsSave</servlet-name>
+        <url-pattern>/save</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>ru.innopolis.stc12.servlets.controllers.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
 </web-app>
